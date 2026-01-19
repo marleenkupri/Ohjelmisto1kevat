@@ -1,9 +1,9 @@
 import random
-code3 = ""
-for i in range(3):
-    code3 += str(random.randint(0, 9))
-code4 = ""
-for i in range(4):
-    code4 += str(random.randint(1, 6))
-print(code3)
-print(code4)
+random_number1 = ""
+for _ in range(3):
+    random_number1 += str(random.randint(0, 9))
+random_number2 = ""
+for _ in range(4):
+    random_number2 += str(random.randint(1, 6))
+print("3-digit code:", random_number1)
+print("4-digit code:", random_number2)
