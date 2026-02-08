@@ -1,0 +1,1 @@
+select id, ident, name from airport limit 10
